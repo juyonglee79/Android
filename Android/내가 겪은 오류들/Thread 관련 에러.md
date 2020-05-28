@@ -24,17 +24,19 @@ Main Thread 외의 새로 생성한 Thread를 이용하여 임의로 UI를 변�
 
 ##### 해결 방법 
 
-Handler를 이용하여 Main Thread를 간접적으로 사용하면 해결할 수 있습니다.
+Handler를 이용하여 Main Thread를 간접적으로 사용하면 해결할 수 있다.
 
-
-
+```kotlin
 final Handler handler = new Handler(){
     public void handleMessage(Message msg){
         // 원래 하려던 동작 (UI변경 작업 등)
     }
 };
-
 ```
+
+
+
+```kotlin
 Timer timer = new Timer(true);
 TimerTask timerTask = new TimerTask() {
     @Override
@@ -65,22 +67,21 @@ Timer를 카운트 할 때마다 handler를 작동시키는 것을 볼 수 있�
 
  간결하게 표현하면
 
+```kotlin
 Handler handler = new Handler(){
-
-​	public void handleMessage(Messaage msg){
-
-​		// 내가 원하는 UI 변경 작업!!
-
-​	}
-
+	public void handleMessage(Messaage msg){
+		// 내가 원하는 UI 변경 작업!!
+	}
 }
+```
 
 
 
 ##### 코드 Run하는 중 UI 동작 변경하고 싶을 때 
 
+```kotlin
 Message msg = handler.obtainMessage();
-
 handler.sendMessage(msg);
+```
 
 해당 동작의 handler를 호출하면 된다.
