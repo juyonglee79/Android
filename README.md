@@ -4,5 +4,6 @@
 
 1. Android Architecture Pattern
 2. 내가 겪은 문제들
+ * Adapter에서의 Context
 3. Retrofit 관련
 4. FireBase 관련
