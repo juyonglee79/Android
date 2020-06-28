@@ -7,4 +7,5 @@
  * Adapter에서의 Context
  * Thread 관련 오류
 3. Retrofit 관련
+ * JSON
 4. FireBase 관련
