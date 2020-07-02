@@ -5,6 +5,7 @@
 1. Android Architecture Pattern
  * MVC
  * MVP
+ * MVVM
 2. 내가 겪은 문제들
  * Adapter에서의 Context
  * Thread 관련 오류
