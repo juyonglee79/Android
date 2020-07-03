@@ -11,4 +11,5 @@
  * Thread 관련 오류
 3. Retrofit 관련
  * JSON
+ * Retrofit
 4. FireBase 관련
