@@ -9,6 +9,7 @@
 2. 내가 겪은 문제들
  * Adapter에서의 Context
  * Thread 관련 오류
+ * Firebase 회원가입 관련 오류
 3. Retrofit 관련
  * JSON
  * Retrofit
