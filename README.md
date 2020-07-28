@@ -1,6 +1,6 @@
 # Android 
 
-* 안드로이드 관련된 기술을 공부합니다.
+* 안드로이드 관련 기술을 공부합니다.
 
 1. Android Architecture Pattern
  * MVC
