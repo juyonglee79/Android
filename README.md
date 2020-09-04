@@ -1,17 +1,20 @@
 # Android 
 
-* 안드로이드 관련 기술을 공부합니다.
+* 안드로이드를 공부합니다.
 
 1. Android Architecture Pattern
  * MVC
  * MVP
  * MVVM
-2. 내가 겪은 문제들
+2. Android 관련
+ * Context
+ * Thread
+3.etrofit 관련
+ * JSON
+ * Retrofit
+4.Firebase 관련
+ * FireBase auth
+5. 내가 겪은 오류들
  * Adapter에서의 Context
  * Thread 관련 오류
  * Firebase 회원가입 관련 오류
-3. Retrofit 관련
- * JSON
- * Retrofit
-4. FireBase 관련
- * FireBase auth
